@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="database" path="kitchenwitch.db" />
+        <include domain="file" path="datastore/kitchenwitch.preferences_pb" />
+        <include domain="file" path="plates/" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="database" path="kitchenwitch.db" />
+        <include domain="file" path="datastore/kitchenwitch.preferences_pb" />
+        <include domain="file" path="plates/" />
+    </device-transfer>
+</data-extraction-rules>
