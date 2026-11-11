@@ -47,7 +47,7 @@ fun ShelfScreen(d: Data, nav: Nav) {
         Eyebrow(tr("Полка", "The shelf"), Modifier.padding(horizontal = 4.dp))
         Gap(6.dp)
         Text(tr("${have.size} из ${Jars.all.size} банок", "${have.size} of ${Jars.all.size} jars"), style = T.title, modifier = Modifier.padding(horizontal = 4.dp))
-        Text(tr("Каждая новая специя ставит на полку новую банку. Пустые места ждут своего часа.", "Every new spice in a spell is a new jar. The empty places wait."),
+        Text(tr("С каждой новой специей на полке появляется новая банка. Пустые места ждут своего часа.", "Every new spice puts a new jar on the shelf. The empty places wait their turn."),
             style = T.sub, modifier = Modifier.padding(horizontal = 4.dp))
         Gap(14.dp)
         Intro("shelf", d.s, Modifier.padding(horizontal = 4.dp))
